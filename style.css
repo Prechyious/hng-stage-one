@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+p,
+h1,
+h3 {
+    all: unset;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 90dvh;
+    background-color: #f8f8f8;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+[data-testid="slackUserName"] {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+[data-testid="slackDisplayImage"] {
+    width: 260px;
+    border-radius: 10px;
+}
+
+.date-time {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+[data-testid="currentDayOfTheWeek"] {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 10px;
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+
+[data-testid="currentUTCTime"] {
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 10px;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+[data-testid="myTrack"] {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 10px;
+}
+
+[data-testid="githubURL"] {
+    padding: 4px 8px;
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
