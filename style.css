@@ -45,7 +45,6 @@ body {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 10px;
     padding-right: 10px;
     border-right: 1px solid grey;
 }
@@ -55,7 +54,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 10px;
 }
 
 .track {
@@ -70,10 +68,12 @@ body {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 10px;
 }
 
 [data-testid="githubURL"] {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
     padding: 4px 8px;
     background-color: grey;
     border-radius: 5px;
